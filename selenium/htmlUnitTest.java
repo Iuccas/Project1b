@@ -20,7 +20,7 @@ public class htmlUnitTest {
 		Assert.assertNotEquals(pageTitle, "rEEEE I just want to finish this project on time :)");
 		Assert.assertFalse(pageTitle.matches("^\\s*$")); //uses regexp
 		System.out.println("Page title is: " + pageTitle);
-
+		System.out.println("goOOOOOOOOOOOD mORNINGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG");
 		// This code will check the HTML source for Jekyll 404 errors
 		String pageSource = driver.getPageSource();
 		Assert.assertFalse(pageSource.contains("404.html")); 
